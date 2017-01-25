@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>B-MAP</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/js/bootstrap.js">
+  <link rel="stylesheet" href="assets/css/base.css">
+</head>
+
+<body>
+<div id="wrap">
+  <!-- ヘッダー -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" href=""><span class="strong-title">B-MAP</span></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="contents"><!-- コンテンツはこのタグ内に記入 -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form class="form-horizontal">
+      <fieldset>
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="userName">User Name</label>
+          <div class="col-md-4">
+            <input id="userName" name="userName" type="text" placeholder="User Name" class="form-control input-md">
+          </div>
+        </div>
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="mail">E-mail</label>
+            <div class="col-md-4">
+              <input id="mail" name="mail" type="text" placeholder="xxxxx@xxx.com" class="form-control input-md">
+            </div>
+        </div>
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="passwordinput">Password</label>
+          <div class="col-md-4">
+            <input id="passwordinput" name="passwordinput" type="password" placeholder="xxxxxx" class="form-control input-md">
+          </div>
+        </div>
+        <!-- Button (Double) -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="return"></label>
+          <div class="col-md-8">
+            <button id="return" name="return" class="btn btn-default">Return</button>
+            <button id="register" name="edit" class="btn btn-default btn-edit">Edit</button>
+            <button id="register" name="delete" class="btn btn-default btn-delete">Delete</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+  </div>
+
+  <!-- フッター -->
+  <footer id="footer">copyright © B-MAP All Rights Reserved.</footer>
+</div>
+
+</body>
+</html>
