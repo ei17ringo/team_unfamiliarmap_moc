@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* 共通部分 */
+#imagemap {
+	margin: 0px auto;
+	padding: 0px;
+	background: transparent url(img/world.png) top left no-repeat;
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+#imagemap li {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	list-style: none;
+	font-size: 14px;
+}
+#imagemap a {
+	position: absolute;
+}
+#imagemap a span {
+	display: none;
+}
+
+/* 北海道 */
+#north_amerika {
+	top: 38px;
+	left: 405px;
+}
+#north_amerika a {
+	width: 400px;
+	height: 331px;
+}
+#north_amerika a:hover {
+	background: url(img/world.png) -10px -600px no-repeat;
+}
+
